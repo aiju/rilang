@@ -96,4 +96,4 @@ With these definitions, writing
 q.write(0);
 r.write(1);
 ```
-will write either to both or to neither.
+will write either to both in the same cycle, or write to neither and stall.
