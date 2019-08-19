@@ -10,7 +10,7 @@ add() := module {
 };
 ```
 This is a module that's simply an 8-bit adder.
-`comb` defines a combinational block, meaning that `q` updates instantly whenever `a` or `b` change.
+It defines a combinational block, meaning that `q` updates instantly whenever `a` or `b` change.
 Module instantiation looks something like this:
 ```
 add_i := add();
